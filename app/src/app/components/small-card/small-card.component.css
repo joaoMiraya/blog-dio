@@ -1,24 +1,25 @@
 .container__small-card {
-    margin-right: 16rem;
     margin-top: 1rem;
-
 }
 
 .container__small-card__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 
 .small-card-photo img {
-    object-fit: contain;
+    object-fit: cover;
+    max-width: 90px;
 }
 
 .small-card__title h1 {
     font-size: 1.5rem;
-    margin-left: .5rem;
+    margin-left: .8rem;
 }
-.container__small-card__separator{
+
+.container__small-card__separator {
     margin-top: 1rem;
 }

@@ -1,4 +1,21 @@
-.container__header ul{
+.container__header ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: .5rem;
+    padding: 1rem 0;
+}
+
+.container__header ul li>span {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(38, 130, 250);
+}
+
+.container__header ul li>a:hover {
+    color: rgb(38, 130, 250);
+    font-weight: bolder;
+    text-decoration: underline;
+    transition: all;
+    transition-duration: .3s;
 }

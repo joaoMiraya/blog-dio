@@ -1,0 +1,36 @@
+@media screen and (max-width:875px) {
+    .container__big-card {
+        max-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        gap: .6rem;
+        justify-content: flex-start;
+
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .big-card__photo {
+        display: flex;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .big-card__photo img {
+        width: 100%;
+    }
+
+    .big-card__title {
+        font-size: .6rem;
+    }
+
+    .big-card__description {
+        font-size: .6rem;
+        margin: 0 1rem;
+    }
+
+
+}
